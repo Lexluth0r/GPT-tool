@@ -1,0 +1,6 @@
+.idea
+.vscode
+resource/dist
+resource/node_modules
+resource/.env.dev
+config.yaml

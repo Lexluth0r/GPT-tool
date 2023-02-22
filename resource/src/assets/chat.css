@@ -1,0 +1,107 @@
+#app {
+    font-family:Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    color:#2c3e50;
+    text-align:center
+}
+
+
+nav {
+    padding:30px
+}
+nav a {
+    font-weight:700;
+    color:#2c3e50
+}
+nav a.router-link-exact-active {
+    color:#42b983
+}
+.flex, .flex_row {
+    display:flex
+}
+.flex_row {
+    flex-direction:row
+}
+.flex_col {
+    display:flex;
+    flex-direction:column
+}
+div {
+    box-sizing:border-box
+}
+.aicode {
+    margin-top:1rem
+}
+.aicode li {
+    list-style:none
+}
+.aicode a {
+    text-decoration:none
+}
+.home {
+    margin:0 auto;
+    max-width:64rem;
+    width:1024px;
+}
+.header, .home {
+    align-items:center
+}
+.header {
+    width:100%;
+    text-align:left;
+    border-bottom:1px solid #e5e7eb
+}
+.select {
+    margin-left:20px;
+    margin-top:10px;
+    width:40%
+}
+.section {
+    margin:2rem 0 1rem;
+    font-size:20px
+}
+.section h1 {
+    margin:0
+}
+.desc {
+    margin-bottom:1rem;
+    color:#64748b
+}
+.question {
+    text-align:left
+}
+.button, .content, .desc, .el-button, .response {
+    width:100%;
+    max-width:36rem
+}
+textarea {
+    min-height:120px
+}
+.button, .el-button {
+    height:50px;
+    margin-top:1rem
+}
+.button, .el-button span {
+    font-size:16px
+}
+.response {
+    margin-top:2rem;
+    text-align:initial
+}
+.hljs-line-numbers {
+    text-align:right;
+    border-right:1px solid #ccc!important;
+    margin-right:10px!important;
+    padding-right:5px!important;
+    color:#999;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none
+}
+@media screen and (max-width:800px) {
+    .title {
+        font-size:22px
+    }
+}

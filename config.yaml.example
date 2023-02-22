@@ -1,0 +1,23 @@
+app:
+  name: chat
+
+chat:
+  token: 
+
+httpServer:
+  runModel: debug                 # debug release test
+  httpPort: 10060
+  readTimeout: 60
+  writeTimeout: 60
+
+
+
+
+
+
+
+
+
+
+
+
