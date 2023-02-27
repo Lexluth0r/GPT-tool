@@ -26,3 +26,15 @@ cd resource && npm install && npm run build
 ```sh
 cd ../ && go run cmd/chat.go
 ```
+
+## docker 运行
+
+1.
+```
+docker build -t chat .
+```
+
+2.
+```
+docker run -it -p 127.0.0.1:10090:10060  -v /Users/config.yaml:/usr/local/bin/config.yaml chat:latest
+```
