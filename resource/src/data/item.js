@@ -1,5 +1,16 @@
 const selectItem =  [
     {
+        key: "OKR判断",
+        title: "OKR判断",
+        section1: "输入单个OKR",
+        section2: "帮你判断设置是否合理",
+        desc: "简单判断OKR，并给出修改建议",
+        question: "输入OKR内容",
+        placeholder: "比如：O:完成pipe中分配的任务 kr1:完成任务后bug率不超过2% kr2: 业务运行时5xx错误低于0.01%",
+        buttonText: "对OKR进行判断",
+        basePrompt: "请帮我判断以下OKR内容设置是否合理并给出整改建议,用markdown格式以分点叙述的形式输出："
+    },
+    {
     key: "周报生成器",
     title: "周报生成器",
     section1: "简单描述工作内容",

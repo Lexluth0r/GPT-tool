@@ -66,7 +66,7 @@ const response = ref("")
 const loading = ref(false)
 
 
-const typeValue = ref("周报生成器");
+const typeValue = ref("OKR判断");
 
 onMounted(() => {
   SeleteItem &&
